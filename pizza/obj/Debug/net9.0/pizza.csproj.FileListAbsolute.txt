@@ -288,7 +288,10 @@ C:\Users\user\source\repos\pizza\pizza\obj\Debug\net9.0\compressed\s7mgwn86s0-o1
 C:\Users\user\source\repos\pizza\pizza\obj\Debug\net9.0\compressed\l6vco8435t-7skra2jjia.gz
 C:\Users\user\source\repos\pizza\pizza\obj\Debug\net9.0\compressed\xtj57edq6q-vg6ahl3tca.gz
 C:\Users\user\source\repos\pizza\pizza\obj\Debug\net9.0\compressed\rt4ns9muph-zw1ph28e74.gz
+<<<<<<< HEAD
 C:\Users\user\source\repos\pizza\pizza\obj\Debug\net9.0\compressed\32r4uck9w3-ppmkiyzul3.gz
+=======
+>>>>>>> 7813933 (Update)
 C:\Users\user\source\repos\pizza\pizza\obj\Debug\net9.0\compressed\oxl7zfor85-tjlpdfzplx.gz
 C:\Users\user\source\repos\pizza\pizza\obj\Debug\net9.0\compressed\78t890vf9j-8synsunaj7.gz
 C:\Users\user\source\repos\pizza\pizza\obj\Debug\net9.0\compressed\aq7t3gxow3-byw09am2l5.gz
@@ -3010,3 +3013,7 @@ C:\Users\user\source\repos\pizza\pizza\obj\Debug\net9.0\compressed\7eryhvw2t3-il
 C:\Users\user\source\repos\pizza\pizza\obj\Debug\net9.0\compressed\sa2sune76l-qlccset4i1.gz
 C:\Users\user\source\repos\pizza\pizza\obj\Debug\net9.0\compressed\wcak4xkw06-xzw0cte36n.gz
 C:\Users\user\source\repos\pizza\pizza\obj\Debug\net9.0\compressed\1so5b7jcp8-jfsiqqwiad.gz
+<<<<<<< HEAD
+=======
+C:\Users\user\source\repos\pizza\pizza\obj\Debug\net9.0\compressed\32r4uck9w3-ppmkiyzul3.gz
+>>>>>>> 7813933 (Update)

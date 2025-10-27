@@ -1,0 +1,43 @@
+﻿@model IEnumerable<pizza.Models.Statistics>
+@{
+    ViewData["Title"] = "Statistics";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Statistics</h2>
+<a asp-action="Create" class="btn btn-success mb-3">Add New Statistic</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Number</th>
+            <th>Icon</th>
+            <th>Active</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var stat in Model)
+        {
+            <tr>
+                <td>@stat.Name</td>
+                <td>@stat.Number</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(stat.Icon))
+                    {
+                        <img src="@stat.Icon" alt="Icon" width="50" />
+                    }
+                </td>
+                <td>@(stat.IsActive ? "Yes" : "No")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@stat.Id" class="btn btn-primary btn-sm">Edit</a>
+                    <a asp-action="ToggleStatus" asp-route-id="@stat.Id" class="btn btn-warning btn-sm">
+                        @(stat.IsActive ? "Deactivate" : "Activate")
+                    </a>
+                    <a asp-action="Delete" asp-route-id="@stat.Id" class="btn btn-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
