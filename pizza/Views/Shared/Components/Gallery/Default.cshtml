@@ -1,0 +1,24 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model IEnumerable<pizza.Models.Gallery>
+
+<section class="ftco-gallery">
+    <div class="container-wrap">
+        <div class="row no-gutters">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-3 ftco-animate">
+                    <a href="#" class="gallery img d-flex align-items-center"
+                       style="background-image: url(@item.ImageUrl);">
+                        <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                            <span class="icon-search"></span>
+                        </div>
+                    </a>
+                </div>
+            }
+        </div>
+    </div>
+</section>

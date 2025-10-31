@@ -1,0 +1,17 @@
+﻿@model pizza.Models.Gallery
+@{
+    ViewData["Title"] = "Yeni şəkil əlavə et";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Yeni şəkil əlavə et</h2>
+
+<form asp-area="Admin" asp-controller="Gallery" asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label asp-for="FormFile" class="form-label">Şəkil seç</label>
+        <input asp-for="FormFile" type="file" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Yadda saxla</button>
+    <a asp-action="Index" class="btn btn-secondary">Geri</a>
+</form>

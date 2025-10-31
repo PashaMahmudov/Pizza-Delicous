@@ -1,0 +1,16 @@
+﻿@model pizza.Models.Gallery
+@{
+    ViewData["Title"] = "Gallery Detail";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Şəkil Detalları</h2>
+
+@if (!string.IsNullOrEmpty(Model.ImageUrl))
+{
+    <img src="@Model.ImageUrl" width="400" class="mb-3" />
+}
+
+<div>
+    <a asp-action="Index" class="btn btn-secondary">Geri</a>
+</div>

@@ -1,0 +1,1196 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\pizza\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\views\\shared\\components\\ourservice\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\views\\shared\\components\\ourservice\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\views\\ourservices\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\views\\ourservices\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\views\\ourservices\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\views\\ourservices\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\controllers\\ourservicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\controllers\\ourservicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\models\\ourservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\models\\ourservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\viewcomponents\\ourserviceviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\viewcomponents\\ourserviceviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\views\\shared\\components\\statistics\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\views\\shared\\components\\statistics\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\controllers\\gallerycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\controllers\\gallerycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\viewcomponents\\galleryviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\viewcomponents\\galleryviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\viewcomponents\\aboutviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\viewcomponents\\aboutviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\viewcomponents\\ourmenuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\viewcomponents\\ourmenuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\pizza\\pizza\\Migrations\\20251027051610_AllData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pizza\\Migrations\\20251027051610_AllData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\migrations\\20251024051543_addcolumnisactive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\migrations\\20251024051543_addcolumnisactive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\views\\ourservices\\read.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\views\\ourservices\\read.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\views\\ourservices\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\views\\ourservices\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\views\\shared\\components\\footer\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\views\\shared\\components\\footer\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\viewcomponents\\footerviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\viewcomponents\\footerviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\views\\footer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\views\\footer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\views\\footer\\read.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\views\\footer\\read.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\models\\footer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\models\\footer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\views\\footer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\views\\footer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\views\\footer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\views\\footer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\views\\footer\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\views\\footer\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\views\\shared\\components\\about\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\views\\shared\\components\\about\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\views\\homesliders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\views\\homesliders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\controllers\\footercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\controllers\\footercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\controllers\\homesliderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\controllers\\homesliderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\pizza\\pizza\\Migrations\\20251026203818_CreateFooterTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pizza\\Migrations\\20251026203818_CreateFooterTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\views\\statistics\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\views\\statistics\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\views\\statistics\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\views\\statistics\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\views\\statistics\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\views\\statistics\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\views\\statistics\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\views\\statistics\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\models\\statistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\models\\statistics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\viewcomponents\\statisticsviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\viewcomponents\\statisticsviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\pizza\\pizza\\Migrations\\20251026200726_CreateStaticsTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pizza\\Migrations\\20251026200726_CreateStaticsTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\views\\gallery\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\views\\gallery\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\views\\gallery\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\views\\gallery\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\models\\gallery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\models\\gallery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\views\\gallery\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\views\\gallery\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\views\\gallery\\read.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\views\\gallery\\read.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\views\\gallery\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\views\\gallery\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\models\\ourmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\models\\ourmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\views\\shared\\components\\gallery\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\views\\shared\\components\\gallery\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\pizza\\pizza\\Migrations\\20251026192323_CreateGalleryTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:pizza\\Migrations\\20251026192323_CreateGalleryTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\controllers\\ourmenuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\controllers\\ourmenuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\views\\shared\\components\\ourmenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\views\\shared\\components\\ourmenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\views\\ourmenus\\read.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\views\\ourmenus\\read.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\views\\ourmenus\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\views\\ourmenus\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\views\\ourmenus\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\views\\ourmenus\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\source\\repos\\pizza\\pizza\\areas\\admin\\views\\ourmenus\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\areas\\admin\\views\\ourmenus\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuItem.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Models\\MenuItem.cs",
+              "RelativeDocumentMoniker": "pizza\\Models\\MenuItem.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Models\\MenuItem.cs*",
+              "RelativeToolTip": "pizza\\Models\\MenuItem.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T18:40:59.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeVM.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\ViewModels\\HomeVM.cs",
+              "RelativeDocumentMoniker": "pizza\\ViewModels\\HomeVM.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\ViewModels\\HomeVM.cs",
+              "RelativeToolTip": "pizza\\ViewModels\\HomeVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T07:15:07.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "pizza\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "pizza\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAAMUBAAAAAAAAAAAIwNoBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-27T06:57:10.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Views\\Shared\\Components\\OurService\\Default.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Views\\Shared\\Components\\OurService\\Default.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Views\\Shared\\Components\\OurService\\Default.cshtml",
+              "RelativeToolTip": "pizza\\Views\\Shared\\Components\\OurService\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-25T19:12:32.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\OurServices\\Index.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Views\\OurServices\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\OurServices\\Index.cshtml",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Views\\OurServices\\Index.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T05:08:30.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\OurServices\\Create.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Views\\OurServices\\Create.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\OurServices\\Create.cshtml",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Views\\OurServices\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T05:18:02.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "pizza\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "pizza\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-10-26T20:50:57.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\DAL\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "pizza\\DAL\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\DAL\\AppDbContext.cs*",
+              "RelativeToolTip": "pizza\\DAL\\AppDbContext.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvxkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T19:22:41.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OurServicesController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Controllers\\OurServicesController.cs",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Controllers\\OurServicesController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Controllers\\OurServicesController.cs",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Controllers\\OurServicesController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAqwHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T05:05:52.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "pizza\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "pizza\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T05:04:47.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OurService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Models\\OurService.cs",
+              "RelativeDocumentMoniker": "pizza\\Models\\OurService.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Models\\OurService.cs",
+              "RelativeToolTip": "pizza\\Models\\OurService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T05:02:45.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "pizza\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T20:50:59.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OurServiceViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\ViewComponents\\OurServiceViewComponent.cs",
+              "RelativeDocumentMoniker": "pizza\\ViewComponents\\OurServiceViewComponent.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\ViewComponents\\OurServiceViewComponent.cs",
+              "RelativeToolTip": "pizza\\ViewComponents\\OurServiceViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T05:02:16.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "pizza\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T19:53:00.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Views\\Shared\\Components\\Statistics\\Default.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Views\\Shared\\Components\\Statistics\\Default.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Views\\Shared\\Components\\Statistics\\Default.cshtml",
+              "RelativeToolTip": "pizza\\Views\\Shared\\Components\\Statistics\\Default.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T20:09:06.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GalleryController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Controllers\\GalleryController.cs",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Controllers\\GalleryController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Controllers\\GalleryController.cs",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Controllers\\GalleryController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAiwD4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T19:30:28.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GalleryViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\ViewComponents\\GalleryViewComponent.cs",
+              "RelativeDocumentMoniker": "pizza\\ViewComponents\\GalleryViewComponent.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\ViewComponents\\GalleryViewComponent.cs",
+              "RelativeToolTip": "pizza\\ViewComponents\\GalleryViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T19:24:21.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AboutViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\ViewComponents\\AboutViewComponent.cs",
+              "RelativeDocumentMoniker": "pizza\\ViewComponents\\AboutViewComponent.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\ViewComponents\\AboutViewComponent.cs",
+              "RelativeToolTip": "pizza\\ViewComponents\\AboutViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T05:31:23.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OurMenuViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\ViewComponents\\OurMenuViewComponent.cs",
+              "RelativeDocumentMoniker": "pizza\\ViewComponents\\OurMenuViewComponent.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\ViewComponents\\OurMenuViewComponent.cs",
+              "RelativeToolTip": "pizza\\ViewComponents\\OurMenuViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T05:23:20.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20251027051610_AllData.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Migrations\\20251027051610_AllData.cs",
+              "RelativeDocumentMoniker": "pizza\\Migrations\\20251027051610_AllData.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Migrations\\20251027051610_AllData.cs",
+              "RelativeToolTip": "pizza\\Migrations\\20251027051610_AllData.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T05:16:10.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20251024051543_addColumnIsACtive.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Migrations\\20251024051543_addColumnIsACtive.cs",
+              "RelativeDocumentMoniker": "pizza\\Migrations\\20251024051543_addColumnIsACtive.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Migrations\\20251024051543_addColumnIsACtive.cs",
+              "RelativeToolTip": "pizza\\Migrations\\20251024051543_addColumnIsACtive.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T05:11:18.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Read.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\OurServices\\Read.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Views\\OurServices\\Read.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\OurServices\\Read.cshtml",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Views\\OurServices\\Read.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T05:08:40.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\OurServices\\Edit.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Views\\OurServices\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\OurServices\\Edit.cshtml",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Views\\OurServices\\Edit.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAhwBwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-27T05:08:12.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Views\\About\\Index.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Views\\About\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Views\\About\\Index.cshtml",
+              "RelativeToolTip": "pizza\\Views\\About\\Index.cshtml",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAAANUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T21:15:07.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAJ8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T19:35:58.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\Footer\\Index.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Views\\Footer\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\Footer\\Index.cshtml",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Views\\Footer\\Index.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T20:43:53.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Views\\Shared\\Components\\Footer\\Default.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Views\\Shared\\Components\\Footer\\Default.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Views\\Shared\\Components\\Footer\\Default.cshtml",
+              "RelativeToolTip": "pizza\\Views\\Shared\\Components\\Footer\\Default.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T20:55:13.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FooterViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\ViewComponents\\FooterViewComponent.cs",
+              "RelativeDocumentMoniker": "pizza\\ViewComponents\\FooterViewComponent.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\ViewComponents\\FooterViewComponent.cs",
+              "RelativeToolTip": "pizza\\ViewComponents\\FooterViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T20:35:22.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Read.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\Footer\\Read.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Views\\Footer\\Read.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\Footer\\Read.cshtml",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Views\\Footer\\Read.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T20:43:28.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Footer.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Models\\Footer.cs",
+              "RelativeDocumentMoniker": "pizza\\Models\\Footer.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Models\\Footer.cs",
+              "RelativeToolTip": "pizza\\Models\\Footer.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T20:36:05.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\Footer\\Edit.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Views\\Footer\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\Footer\\Edit.cshtml",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Views\\Footer\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T20:42:26.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\Footer\\Create.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Views\\Footer\\Create.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\Footer\\Create.cshtml",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Views\\Footer\\Create.cshtml",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAwF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T20:43:00.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\Footer\\Delete.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Views\\Footer\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\Footer\\Delete.cshtml",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Views\\Footer\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T20:41:53.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Views\\Shared\\Components\\About\\Default.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Views\\Shared\\Components\\About\\Default.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Views\\Shared\\Components\\About\\Default.cshtml",
+              "RelativeToolTip": "pizza\\Views\\Shared\\Components\\About\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T20:58:30.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "FooterController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Controllers\\FooterController.cs",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Controllers\\FooterController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Controllers\\FooterController.cs",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Controllers\\FooterController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwBoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T20:41:23.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\HomeSliders\\Create.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Views\\HomeSliders\\Create.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\HomeSliders\\Create.cshtml",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Views\\HomeSliders\\Create.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T19:33:37.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20251026203818_CreateFooterTable.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Migrations\\20251026203818_CreateFooterTable.cs",
+              "RelativeDocumentMoniker": "pizza\\Migrations\\20251026203818_CreateFooterTable.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Migrations\\20251026203818_CreateFooterTable.cs",
+              "RelativeToolTip": "pizza\\Migrations\\20251026203818_CreateFooterTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T20:38:18.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T20:25:13.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "HomeSlidersController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Controllers\\HomeSlidersController.cs",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Controllers\\HomeSlidersController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Controllers\\HomeSlidersController.cs",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Controllers\\HomeSlidersController.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAuwKAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T19:27:25.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T20:25:20.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\Statistics\\Delete.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Views\\Statistics\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\Statistics\\Delete.cshtml",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Views\\Statistics\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T20:23:50.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\Statistics\\Index.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Views\\Statistics\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\Statistics\\Index.cshtml",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Views\\Statistics\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T20:18:15.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\Statistics\\Edit.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Views\\Statistics\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\Statistics\\Edit.cshtml",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Views\\Statistics\\Edit.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T20:23:23.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\Statistics\\Create.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Views\\Statistics\\Create.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\Statistics\\Create.cshtml",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Views\\Statistics\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T20:22:56.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "StatisticsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Controllers\\StatisticsController.cs",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Controllers\\StatisticsController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Controllers\\StatisticsController.cs",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Controllers\\StatisticsController.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAwwIEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T20:17:55.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "StatisticsViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\ViewComponents\\StatisticsViewComponent.cs",
+              "RelativeDocumentMoniker": "pizza\\ViewComponents\\StatisticsViewComponent.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\ViewComponents\\StatisticsViewComponent.cs",
+              "RelativeToolTip": "pizza\\ViewComponents\\StatisticsViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T20:08:01.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Statistics.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Models\\Statistics.cs",
+              "RelativeDocumentMoniker": "pizza\\Models\\Statistics.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Models\\Statistics.cs",
+              "RelativeToolTip": "pizza\\Models\\Statistics.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T20:02:20.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20251026200726_CreateStaticsTable.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Migrations\\20251026200726_CreateStaticsTable.cs",
+              "RelativeDocumentMoniker": "pizza\\Migrations\\20251026200726_CreateStaticsTable.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Migrations\\20251026200726_CreateStaticsTable.cs",
+              "RelativeToolTip": "pizza\\Migrations\\20251026200726_CreateStaticsTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T20:07:26.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Views\\Menu\\Index.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Views\\Menu\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Views\\Menu\\Index.cshtml",
+              "RelativeToolTip": "pizza\\Views\\Menu\\Index.cshtml",
+              "ViewState": "AgIAALsAAAAAAAAAAAAAwM4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T19:52:27.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "pizza\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T19:52:58.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\Gallery\\Delete.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Views\\Gallery\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\Gallery\\Delete.cshtml",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Views\\Gallery\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T19:33:13.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\Gallery\\Index.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Views\\Gallery\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\Gallery\\Index.cshtml",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Views\\Gallery\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T19:32:16.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Read.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\Gallery\\Read.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Views\\Gallery\\Read.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\Gallery\\Read.cshtml",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Views\\Gallery\\Read.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T19:31:50.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\Gallery\\Create.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Views\\Gallery\\Create.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\Gallery\\Create.cshtml",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Views\\Gallery\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T19:31:13.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Gallery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Models\\Gallery.cs",
+              "RelativeDocumentMoniker": "pizza\\Models\\Gallery.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Models\\Gallery.cs",
+              "RelativeToolTip": "pizza\\Models\\Gallery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T19:22:25.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Models\\Menu.cs",
+              "RelativeDocumentMoniker": "pizza\\Models\\Menu.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Models\\Menu.cs",
+              "RelativeToolTip": "pizza\\Models\\Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T20:23:11.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\Gallery\\Edit.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Views\\Gallery\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\Gallery\\Edit.cshtml",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Views\\Gallery\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T19:32:45.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "OurMenu.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Models\\OurMenu.cs",
+              "RelativeDocumentMoniker": "pizza\\Models\\OurMenu.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Models\\OurMenu.cs",
+              "RelativeToolTip": "pizza\\Models\\OurMenu.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T19:29:29.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Views\\Shared\\Components\\Gallery\\Default.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Views\\Shared\\Components\\Gallery\\Default.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Views\\Shared\\Components\\Gallery\\Default.cshtml",
+              "RelativeToolTip": "pizza\\Views\\Shared\\Components\\Gallery\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-26T19:25:24.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "20251026192323_CreateGalleryTable.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Migrations\\20251026192323_CreateGalleryTable.cs",
+              "RelativeDocumentMoniker": "pizza\\Migrations\\20251026192323_CreateGalleryTable.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Migrations\\20251026192323_CreateGalleryTable.cs",
+              "RelativeToolTip": "pizza\\Migrations\\20251026192323_CreateGalleryTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T19:23:23.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "pizza\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "pizza\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T20:23:05.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ContactsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Controllers\\ContactsController.cs",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Controllers\\ContactsController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Controllers\\ContactsController.cs",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Controllers\\ContactsController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T20:22:56.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Views\\Shared\\Components\\OurMenu\\Default.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Views\\Shared\\Components\\OurMenu\\Default.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Views\\Shared\\Components\\OurMenu\\Default.cshtml",
+              "RelativeToolTip": "pizza\\Views\\Shared\\Components\\OurMenu\\Default.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAwDcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-25T19:12:18.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Read.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\OurMenus\\Read.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Views\\OurMenus\\Read.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\OurMenus\\Read.cshtml",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Views\\OurMenus\\Read.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-25T19:07:23.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\OurMenus\\Delete.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Views\\OurMenus\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\OurMenus\\Delete.cshtml",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Views\\OurMenus\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-25T19:06:32.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\OurMenus\\Edit.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Views\\OurMenus\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\OurMenus\\Edit.cshtml",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Views\\OurMenus\\Edit.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-25T19:05:32.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "OurMenusController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Controllers\\OurMenusController.cs",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Controllers\\OurMenusController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Controllers\\OurMenusController.cs",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Controllers\\OurMenusController.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAqwIwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T19:03:59.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\OurMenus\\Create.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Areas\\Admin\\Views\\OurMenus\\Create.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\pizza\\pizza\\Areas\\Admin\\Views\\OurMenus\\Create.cshtml",
+              "RelativeToolTip": "pizza\\Areas\\Admin\\Views\\OurMenus\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-25T19:04:47.922Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
