@@ -14,9 +14,15 @@
         <p>
             <strong>Status:</strong> @(Model.IsActive ? "Active" : "Inactive")
         </p>
+<<<<<<< HEAD
         @if (!string.IsNullOrEmpty(Model.Icon))
         {
             <img src="@Model.Icon" alt="@Model.Title" style="max-width:200px;" />
+=======
+        @if (!string.IsNullOrEmpty(Model.Img))
+        {
+            <img src="@Model.Img" alt="@Model.Title" style="max-width:200px;" />
+>>>>>>> 7813933 (Update)
         }
     </div>
 </div>

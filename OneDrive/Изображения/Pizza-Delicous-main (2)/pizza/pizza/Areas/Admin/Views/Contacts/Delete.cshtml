@@ -1,0 +1,29 @@
+﻿@model pizza.Models.Contact
+
+@{
+    ViewData["Title"] = "Delete Contact";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Delete Contact</h2>
+
+<div class="alert alert-warning">
+    Are you sure you want to delete this contact?
+</div>
+
+<dl class="row">
+    <dt class="col-sm-3">Phone Number</dt>
+    <dd class="col-sm-9">@Model.PhoneNumber</dd>
+
+    <dt class="col-sm-3">Address</dt>
+    <dd class="col-sm-9">@Model.Address</dd>
+
+    <dt class="col-sm-3">Work Days</dt>
+    <dd class="col-sm-9">@Model.WorkDays</dd>
+</dl>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Yes, Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

@@ -1,0 +1,52 @@
+﻿@model pizza.Models.Contact
+
+@{
+    ViewData["Title"] = "Edit Contact";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Edit Contact</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label asp-for="PhoneNumber" class="form-label"></label>
+        <input asp-for="PhoneNumber" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="PhoneDescription" class="form-label"></label>
+        <input asp-for="PhoneDescription" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Address" class="form-label"></label>
+        <input asp-for="Address" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="AddressDescription" class="form-label"></label>
+        <input asp-for="AddressDescription" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="WorkDays" class="form-label"></label>
+        <input asp-for="WorkDays" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="WorkHours" class="form-label"></label>
+        <input asp-for="WorkHours" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="TwitterUrl" class="form-label"></label>
+        <input asp-for="TwitterUrl" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="FacebookUrl" class="form-label"></label>
+        <input asp-for="FacebookUrl" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="InstagramUrl" class="form-label"></label>
+        <input asp-for="InstagramUrl" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update</button>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</form>

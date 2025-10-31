@@ -15,7 +15,11 @@ namespace pizza.ViewComponents
             _db = db;
         }
 
+<<<<<<< HEAD
         public async Task<IViewComponentResult> InvokeAsync ()
+=======
+        public async Task<IViewComponentResult> InvokeAsync()
+>>>>>>> 7813933 (Update)
         {
             var services = await _db.OurServis.ToListAsync();
             return View(services);

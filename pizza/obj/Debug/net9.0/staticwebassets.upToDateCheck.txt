@@ -971,11 +971,33 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
+<<<<<<< HEAD
 wwwroot\uploads\24862170-87ed-4902-9717-8fd3a9c3d62b_Interstellar_film_poster.jpg
 wwwroot\uploads\3ca6a331-f186-47d6-85a7-7784f336bd46_2f08a7a2536505148a51702a57e5693f.jpg
 wwwroot\uploads\a3577dd1-0457-4aba-9416-1562b44b0044_9d13dfc4-340d-43ec-bd2e-559e0219bbfb.jpg
 wwwroot\uploads\ccd31687-6ed3-4787-9dae-55748df34325_Interstellar_film_poster.jpg
 wwwroot\uploads\f832f9e7-2b0b-4ea3-b417-c4e548beacb1_images.jpg
+=======
+wwwroot\uploads\0c868c27-1940-4099-b196-42d07ba2a256_9d13dfc4-340d-43ec-bd2e-559e0219bbfb.jpg
+wwwroot\uploads\1050cbcc-2873-4da5-8796-1f500a8a7084_Interstellar_film_poster.jpg
+wwwroot\uploads\16b23ee4-6d3a-4a93-b4a2-e69a7a3344cc_Screenshot 2023-12-07 013228.png
+wwwroot\uploads\24862170-87ed-4902-9717-8fd3a9c3d62b_Interstellar_film_poster.jpg
+wwwroot\uploads\273289cb-252a-4d18-b21a-02a8cb6f8e2e_9d13dfc4-340d-43ec-bd2e-559e0219bbfb.jpg
+wwwroot\uploads\3ca6a331-f186-47d6-85a7-7784f336bd46_2f08a7a2536505148a51702a57e5693f.jpg
+wwwroot\uploads\422e8609-2bcd-4507-b956-d7cd1f62d0e5_Screenshot (1).png
+wwwroot\uploads\43c55b4f-6596-4ef1-86fe-9f0228ad4f7a_Screenshot 2023-12-07 013228.png
+wwwroot\uploads\4b8bdd80-81a4-46d4-81b4-62df169a10cc_images.jpg
+wwwroot\uploads\5ca31fdc-69ad-4803-87cd-a3c5e0d3c305_2f08a7a2536505148a51702a57e5693f.jpg
+wwwroot\uploads\88694a5c-caf1-49f8-a6f5-c19d78d09253_Screenshot 2025-07-18 111804.png
+wwwroot\uploads\a3577dd1-0457-4aba-9416-1562b44b0044_9d13dfc4-340d-43ec-bd2e-559e0219bbfb.jpg
+wwwroot\uploads\ccd31687-6ed3-4787-9dae-55748df34325_Interstellar_film_poster.jpg
+wwwroot\uploads\d2f5267e-1f1b-4c22-8c9d-eed7e9593993_9d13dfc4-340d-43ec-bd2e-559e0219bbfb.jpg
+wwwroot\uploads\d2f6d3ca-4d93-4d91-95c6-da77e6aaf400_9d13dfc4-340d-43ec-bd2e-559e0219bbfb.jpg
+wwwroot\uploads\dbee3a4e-0dd0-4ef0-ab0d-5e342345c2fd_Screenshot 2024-01-06 000427.png
+wwwroot\uploads\f25339c6-0366-4469-82df-e40890d0832f_images.jpg
+wwwroot\uploads\f832f9e7-2b0b-4ea3-b417-c4e548beacb1_images.jpg
+wwwroot\uploads\fbeab672-c8ee-47fe-b634-de89d1a7d100_4691827.jpg
+>>>>>>> 7813933 (Update)
 C:\Users\user\source\repos\pizza\pizza\wwwroot\Admin\js\progress-bar.js
 C:\Users\user\source\repos\pizza\pizza\wwwroot\Admin\js\profile-demo.js
 C:\Users\user\source\repos\pizza\pizza\wwwroot\Admin\js\popover.js

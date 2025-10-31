@@ -1,0 +1,101 @@
+﻿@model pizza.Models.Footer
+@{
+    ViewData["Title"] = "Edit Footer";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form asp-action="Edit" asp-route-id="@Model.Id" method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label asp-for="AboutText" class="form-label">About Text</label>
+        <textarea asp-for="AboutText" class="form-control"></textarea>
+        <span asp-validation-for="AboutText" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Address" class="form-label">Address</label>
+        <input asp-for="Address" type="text" class="form-control" />
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Phone" class="form-label">Phone</label>
+        <input asp-for="Phone" type="text" class="form-control" />
+        <span asp-validation-for="Phone" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label">Email</label>
+        <input asp-for="Email" type="email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Twitter" class="form-label">Twitter</label>
+        <input asp-for="Twitter" type="text" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Facebook" class="form-label">Facebook</label>
+        <input asp-for="Facebook" type="text" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Instagram" class="form-label">Instagram</label>
+        <input asp-for="Instagram" type="text" class="form-control" />
+    </div>
+
+    <h4>Blog 1</h4>
+    <div class="mb-3">
+        <label asp-for="BlogTitle1" class="form-label">Title</label>
+        <input asp-for="BlogTitle1" type="text" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="BlogDate1" class="form-label">Date</label>
+        <input asp-for="BlogDate1" type="text" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="BlogAuthor1" class="form-label">Author</label>
+        <input asp-for="BlogAuthor1" type="text" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="BlogComment1" class="form-label">Comments</label>
+        <input asp-for="BlogComment1" type="number" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="FormFile1" class="form-label">Blog Image 1</label>
+        <input asp-for="FormFile1" type="file" class="form-control" />
+        @if (!string.IsNullOrEmpty(Model.BlogImage1))
+        {
+            <img src="@Model.BlogImage1" width="150" class="mt-2" />
+        }
+    </div>
+
+    <h4>Blog 2</h4>
+    <div class="mb-3">
+        <label asp-for="BlogTitle2" class="form-label">Title</label>
+        <input asp-for="BlogTitle2" type="text" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="BlogDate2" class="form-label">Date</label>
+        <input asp-for="BlogDate2" type="text" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="BlogAuthor2" class="form-label">Author</label>
+        <input asp-for="BlogAuthor2" type="text" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="BlogComment2" class="form-label">Comments</label>
+        <input asp-for="BlogComment2" type="number" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="FormFile2" class="form-label">Blog Image 2</label>
+        <input asp-for="FormFile2" type="file" class="form-control" />
+        @if (!string.IsNullOrEmpty(Model.BlogImage2))
+        {
+            <img src="@Model.BlogImage2" width="150" class="mt-2" />
+        }
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update</button>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</form>

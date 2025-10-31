@@ -1,0 +1,34 @@
+﻿@model pizza.Models.ContactMessage
+@{
+    ViewData["Title"] = "Message Details";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="card shadow-sm mb-4" style="background-color: #1e1e2f; color: white; border: none;">
+    <div class="card-header bg-primary text-white">
+        <h5 class="mb-0">Message from @Model.FirstName @Model.LastName</h5>
+    </div>
+
+    <div class="card-body">
+        <p><strong>Full Name:</strong> @Model.FirstName @Model.LastName</p>
+
+        <p><strong>Message:</strong></p>
+        <div class="rounded p-3 mb-3" style="background-color: #2d2d3f; color: #f8f9fa;">
+            @Model.Message
+        </div>
+
+        <p><strong>Sent Date:</strong> @Model.DateTime.ToString("yyyy-MM-dd HH:mm")</p>
+    </div>
+</div>
+
+<div class="d-flex justify-content-between">
+    <a asp-action="Index" class="btn btn-secondary">
+        <i class="bi bi-arrow-left"></i> Back to List
+    </a>
+
+    <form asp-action="DeleteConfirmed" asp-route-id="@Model.Id" method="post" onsubmit="return confirm('Are you sure you want to delete this message?');">
+        <button type="submit" class="btn btn-danger">
+            <i class="bi bi-trash"></i> Delete
+        </button>
+    </form>
+</div>
