@@ -1,0 +1,29 @@
+﻿@model pizza.Models.GalleryImage
+@{
+    ViewData["Title"] = "Edit Gallery Image";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Edit Gallery Image</h2>
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label class="form-label">Current Image</label><br />
+        <img src="@Model.Img" style="width:150px; border-radius:6px;" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="FormFile" class="form-label">Change Image</label>
+        <input asp-for="FormFile" type="file" class="form-control" />
+    </div>
+
+    <div class="mb-3 form-check">
+        <input asp-for="IsActive" class="form-check-input" />
+        <label asp-for="IsActive" class="form-check-label">Active</label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update</button>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</form>

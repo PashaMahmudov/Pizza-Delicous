@@ -1,0 +1,38 @@
+﻿@model pizza.Models.Statistic
+@{
+    ViewData["Title"] = "Create/Edit Statistic";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form asp-action="@ViewData["Title"]" method="post">
+    @if (Model.Id > 0)
+    {
+        <input type="hidden" asp-for="Id" />
+    }
+
+    <div class="mb-3">
+        <label class="form-label">Icon</label>
+        <input asp-for="Icon" class="form-control" placeholder="flaticon-icon-name" />
+        <span asp-validation-for="Icon" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Number</label>
+        <input asp-for="Number" class="form-control" />
+        <span asp-validation-for="Number" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Title</label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3 form-check">
+        <input asp-for="IsActive" class="form-check-input" />
+        <label asp-for="IsActive" class="form-check-label">Active</label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</form>

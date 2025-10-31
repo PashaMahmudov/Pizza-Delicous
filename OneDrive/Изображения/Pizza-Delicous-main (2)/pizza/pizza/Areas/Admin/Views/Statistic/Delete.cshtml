@@ -1,0 +1,21 @@
+﻿@model pizza.Models.Statistic
+@{
+    ViewData["Title"] = "Delete Statistic";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h3>Are you sure you want to delete this statistic?</h3>
+
+<div class="card p-3">
+    <p><strong>Id:</strong> @Model.Id</p>
+    <p><strong>Icon:</strong> <i class="@Model.Icon"></i> @Model.Icon</p>
+    <p><strong>Number:</strong> @Model.Number</p>
+    <p><strong>Title:</strong> @Model.Title</p>
+    <p><strong>Active:</strong> @(Model.IsActive ? "Yes" : "No")</p>
+</div>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Yes, Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

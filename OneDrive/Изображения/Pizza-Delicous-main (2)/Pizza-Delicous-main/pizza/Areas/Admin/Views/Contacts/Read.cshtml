@@ -1,0 +1,40 @@
+﻿@model pizza.Models.Contact
+
+@{
+    ViewData["Title"] = "Contact Details";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Contact Details</h2>
+
+<dl class="row">
+    <dt class="col-sm-3">Phone Number</dt>
+    <dd class="col-sm-9">@Model.PhoneNumber</dd>
+
+    <dt class="col-sm-3">Phone Description</dt>
+    <dd class="col-sm-9">@Model.PhoneDescription</dd>
+
+    <dt class="col-sm-3">Address</dt>
+    <dd class="col-sm-9">@Model.Address</dd>
+
+    <dt class="col-sm-3">Address Description</dt>
+    <dd class="col-sm-9">@Model.AddressDescription</dd>
+
+    <dt class="col-sm-3">Work Days</dt>
+    <dd class="col-sm-9">@Model.WorkDays</dd>
+
+    <dt class="col-sm-3">Work Hours</dt>
+    <dd class="col-sm-9">@Model.WorkHours</dd>
+
+    <dt class="col-sm-3">Twitter</dt>
+    <dd class="col-sm-9">@Model.TwitterUrl</dd>
+
+    <dt class="col-sm-3">Facebook</dt>
+    <dd class="col-sm-9">@Model.FacebookUrl</dd>
+
+    <dt class="col-sm-3">Instagram</dt>
+    <dd class="col-sm-9">@Model.InstagramUrl</dd>
+</dl>
+
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+<a asp-action="Index" class="btn btn-secondary">Back to List</a>

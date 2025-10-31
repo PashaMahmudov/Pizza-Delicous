@@ -1,0 +1,180 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\OneDrive\\\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F\\Pizza-Delicous-main (2)\\Pizza-Delicous-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\onedrive\\\u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F\\pizza-delicous-main (2)\\pizza-delicous-main\\pizza\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\onedrive\\\u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F\\pizza-delicous-main (2)\\pizza-delicous-main\\pizza\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\onedrive\\\u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F\\pizza-delicous-main (2)\\pizza-delicous-main\\pizza\\views\\home\\blogdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\views\\home\\blogdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\onedrive\\\u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F\\pizza-delicous-main (2)\\pizza-delicous-main\\pizza\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\onedrive\\\u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F\\pizza-delicous-main (2)\\pizza-delicous-main\\pizza\\views\\services\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\views\\services\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\onedrive\\\u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F\\pizza-delicous-main (2)\\pizza-delicous-main\\pizza\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\onedrive\\\u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F\\pizza-delicous-main (2)\\pizza-delicous-main\\pizza\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|c:\\users\\user\\onedrive\\\u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F\\pizza-delicous-main (2)\\pizza-delicous-main\\pizza\\models\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9088E2B-B34E-4A3B-84B1-3F0668E7F9A4}|pizza\\pizza.csproj|solutionrelative:pizza\\models\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BlogDetail.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F\\Pizza-Delicous-main (2)\\Pizza-Delicous-main\\pizza\\Views\\Home\\BlogDetail.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Views\\Home\\BlogDetail.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F\\Pizza-Delicous-main (2)\\Pizza-Delicous-main\\pizza\\Views\\Home\\BlogDetail.cshtml",
+              "RelativeToolTip": "pizza\\Views\\Home\\BlogDetail.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T05:59:18.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F\\Pizza-Delicous-main (2)\\Pizza-Delicous-main\\pizza\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F\\Pizza-Delicous-main (2)\\Pizza-Delicous-main\\pizza\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "pizza\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAAAI0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-31T05:43:03.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F\\Pizza-Delicous-main (2)\\Pizza-Delicous-main\\pizza\\DAL\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "pizza\\DAL\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F\\Pizza-Delicous-main (2)\\Pizza-Delicous-main\\pizza\\DAL\\AppDbContext.cs",
+              "RelativeToolTip": "pizza\\DAL\\AppDbContext.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA9wCEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T05:37:44.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BlogPost.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F\\Pizza-Delicous-main (2)\\Pizza-Delicous-main\\pizza\\Models\\BlogPost.cs",
+              "RelativeDocumentMoniker": "pizza\\Models\\BlogPost.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F\\Pizza-Delicous-main (2)\\Pizza-Delicous-main\\pizza\\Models\\BlogPost.cs",
+              "RelativeToolTip": "pizza\\Models\\BlogPost.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T05:36:55.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeVM.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F\\Pizza-Delicous-main (2)\\Pizza-Delicous-main\\pizza\\ViewModels\\HomeVM.cs",
+              "RelativeDocumentMoniker": "pizza\\ViewModels\\HomeVM.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F\\Pizza-Delicous-main (2)\\Pizza-Delicous-main\\pizza\\ViewModels\\HomeVM.cs",
+              "RelativeToolTip": "pizza\\ViewModels\\HomeVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T05:32:27.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F\\Pizza-Delicous-main (2)\\Pizza-Delicous-main\\pizza\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "pizza\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F\\Pizza-Delicous-main (2)\\Pizza-Delicous-main\\pizza\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "pizza\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwB8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T05:13:42.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F\\Pizza-Delicous-main (2)\\Pizza-Delicous-main\\pizza\\Views\\Services\\Index.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Views\\Services\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F\\Pizza-Delicous-main (2)\\Pizza-Delicous-main\\pizza\\Views\\Services\\Index.cshtml",
+              "RelativeToolTip": "pizza\\Views\\Services\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T19:17:26.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F\\Pizza-Delicous-main (2)\\Pizza-Delicous-main\\pizza\\Views\\Menu\\Index.cshtml",
+              "RelativeDocumentMoniker": "pizza\\Views\\Menu\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F\\Pizza-Delicous-main (2)\\Pizza-Delicous-main\\pizza\\Views\\Menu\\Index.cshtml",
+              "RelativeToolTip": "pizza\\Views\\Menu\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-30T19:13:04.458Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
