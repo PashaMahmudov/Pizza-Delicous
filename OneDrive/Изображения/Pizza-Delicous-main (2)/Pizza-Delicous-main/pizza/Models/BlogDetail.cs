@@ -15,6 +15,9 @@ namespace pizza.Models
         [ForeignKey("BlogPost")]
         public int BlogId { get; set; }
         public BlogPost BlogPost { get; set; }
+        [NotMapped]
+        public IFormFile FormFile { get; set; }
+        public bool IsActive { get; set; } = true;
     }
 }
 

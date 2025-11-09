@@ -1,25 +1,43 @@
 ﻿@model pizza.Models.OurService
-
 @{
     ViewData["Title"] = "Service Details";
     Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h1>Service Details</h1>
+<div class="container mt-4">
+    <div class="card shadow">
+        <div class="card-header bg-success text-white">
+            <h4>@Model.Title</h4>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-4">
+                    @if (!string.IsNullOrEmpty(Model.Img))
+                    {
+                        <img src="@Model.Img" alt="Image" class="img-fluid rounded">
+                    }
+                    else
+                    {
+                        <i class="@Model.Icon fs-1 text-success"></i>
+                    }
+                </div>
+                <div class="col-md-8">
+                    <h5>Description:</h5>
+                    <p>@Model.Description</p>
 
-<div class="card">
-    <div class="card-body">
-        <h4 class="card-title">@Model.Title</h4>
-        <p>@Model.Description</p>
-        <p>
-            <strong>Status:</strong> @(Model.IsActive ? "Active" : "Inactive")
-        </p>
-        @if (!string.IsNullOrEmpty(Model.Icon))
-        {
-            <img src="@Model.Icon" alt="@Model.Title" style="max-width:200px;" />
-        }
+                    <p>
+                        <strong>Status:</strong>
+                        <span class="badge @(Model.IsActive ? "bg-success" : "bg-secondary")">
+                            @(Model.IsActive ? "Active" : "Inactive")
+                        </span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="mt-3">
+                <a href="/Admin/OurServices/Edit/@Model.Id" class="btn btn-warning">Edit</a>
+                <a href="/Admin/OurServices/Index" class="btn btn-secondary">Back to List</a>
+            </div>
+        </div>
     </div>
 </div>
-
-<a asp-action="Index" class="btn btn-secondary mt-3">Back</a>
-<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning mt-3">Edit</a>

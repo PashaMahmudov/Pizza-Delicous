@@ -1,0 +1,23 @@
+﻿@model pizza.Models.BlogPost
+
+<h2>Delete Blog</h2>
+
+<div class="alert alert-warning">
+    Are you sure you want to delete this blog?
+</div>
+
+<div class="mb-3">
+    <strong>Title:</strong> @Model.Title
+</div>
+<div class="mb-3">
+    <strong>Description:</strong> @Model.Description
+</div>
+<div class="mb-3">
+    <strong>Author:</strong> @Model.Author
+</div>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a class="btn btn-secondary" href="/Admin/Blogs">Cancel</a>
+</form>

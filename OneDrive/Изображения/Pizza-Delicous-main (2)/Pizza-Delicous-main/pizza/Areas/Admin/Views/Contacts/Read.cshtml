@@ -1,40 +1,65 @@
 ﻿@model pizza.Models.Contact
-
 @{
     ViewData["Title"] = "Contact Details";
     Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
 }
-
-<h2>Contact Details</h2>
-
-<dl class="row">
-    <dt class="col-sm-3">Phone Number</dt>
-    <dd class="col-sm-9">@Model.PhoneNumber</dd>
-
-    <dt class="col-sm-3">Phone Description</dt>
-    <dd class="col-sm-9">@Model.PhoneDescription</dd>
-
-    <dt class="col-sm-3">Address</dt>
-    <dd class="col-sm-9">@Model.Address</dd>
-
-    <dt class="col-sm-3">Address Description</dt>
-    <dd class="col-sm-9">@Model.AddressDescription</dd>
-
-    <dt class="col-sm-3">Work Days</dt>
-    <dd class="col-sm-9">@Model.WorkDays</dd>
-
-    <dt class="col-sm-3">Work Hours</dt>
-    <dd class="col-sm-9">@Model.WorkHours</dd>
-
-    <dt class="col-sm-3">Twitter</dt>
-    <dd class="col-sm-9">@Model.TwitterUrl</dd>
-
-    <dt class="col-sm-3">Facebook</dt>
-    <dd class="col-sm-9">@Model.FacebookUrl</dd>
-
-    <dt class="col-sm-3">Instagram</dt>
-    <dd class="col-sm-9">@Model.InstagramUrl</dd>
-</dl>
-
-<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
-<a asp-action="Index" class="btn btn-secondary">Back to List</a>
+<div class="container mt-4">
+    <div class="card shadow-lg border-0 rounded-3">
+        <div class="card-header bg-info text-white">
+            <h4 class="mb-0">Contact Details</h4>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">Phone Number</dt>
+                <dd class="col-sm-9">@Model.PhoneNumber</dd>
+                <dt class="col-sm-3">Phone Description</dt>
+                <dd class="col-sm-9">@Model.PhoneDescription</dd>
+                <dt class="col-sm-3">Address</dt>
+                <dd class="col-sm-9">@Model.Address</dd>
+                <dt class="col-sm-3">Address Description</dt>
+                <dd class="col-sm-9">@Model.AddressDescription</dd>
+                <dt class="col-sm-3">Work Days</dt>
+                <dd class="col-sm-9">@Model.WorkDays</dd>
+                <dt class="col-sm-3">Work Hours</dt>
+                <dd class="col-sm-9">@Model.WorkHours</dd>
+                <dt class="col-sm-3">Twitter</dt>
+                <dd class="col-sm-9">
+                    @if (!string.IsNullOrEmpty(Model.TwitterUrl))
+                    {
+                        <a href="@Model.TwitterUrl" target="_blank">@Model.TwitterUrl</a>
+                    }
+                    else
+                    {
+                        <span class="text-muted">Not provided</span>
+                    }
+                </dd>
+                <dt class="col-sm-3">Facebook</dt>
+                <dd class="col-sm-9">
+                    @if (!string.IsNullOrEmpty(Model.FacebookUrl))
+                    {
+                        <a href="@Model.FacebookUrl" target="_blank">@Model.FacebookUrl</a>
+                    }
+                    else
+                    {
+                        <span class="text-muted">Not provided</span>
+                    }
+                </dd>
+                <dt class="col-sm-3">Instagram</dt>
+                <dd class="col-sm-9">
+                    @if (!string.IsNullOrEmpty(Model.InstagramUrl))
+                    {
+                        <a href="@Model.InstagramUrl" target="_blank">@Model.InstagramUrl</a>
+                    }
+                    else
+                    {
+                        <span class="text-muted">Not provided</span>
+                    }
+                </dd>
+            </dl>
+            <div class="text-end">
+                <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning px-4">Edit</a>
+                <a asp-action="Index" class="btn btn-secondary px-4 ms-2">Back</a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -460,7 +460,7 @@ pre {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
-  @media (min-width: 576px) {
+  /* @media (min-width: 576px) {
     .container {
       max-width: 540px; } }
   @media (min-width: 768px) {
@@ -471,7 +471,7 @@ pre {
       max-width: 960px; } }
   @media (min-width: 1200px) {
     .container {
-      max-width: 1140px; } }
+      max-width: 1140px; } } */
 
 .container-fluid {
   width: 100%;
@@ -8195,7 +8195,7 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 7em 0;
+  
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
@@ -8206,7 +8206,7 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 16px;
-  padding: 7em 0;
+  padding: 2em 0;
   background: #101315; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
@@ -8561,14 +8561,15 @@ textarea.form-control {
         margin-bottom: 5px; } }
 
 .block-20 {
-  overflow: hidden;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 270px; }
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+}
 
 .blog-entry {
   overflow: hidden; }

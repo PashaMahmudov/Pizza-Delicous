@@ -1,4 +1,4 @@
-﻿
+﻿@model pizza.ViewModels.ServiceVM
 <section class="home-slider owl-carousel img" style="background-image: url(images/bg_1.jpg);">
 
     <div class="slider-item" style="background-image: url(images/bg_3.jpg);">
@@ -20,7 +20,7 @@
 
 @await Component.InvokeAsync("OurService")
 
-<section class="ftco-section">
+@* <section class="ftco-section">
     <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
             <div class="col-md-7 heading-section ftco-animate text-center">
@@ -74,6 +74,40 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</section> *@
+
+
+<section class="ftco-section">
+    <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+            <div class="col-md-7 heading-section ftco-animate text-center">
+                <h2 class="mb-4">Hot Meals</h2>
+                <p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
+                <p class="mt-5">
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            @foreach (var item in Model.meals)
+            {
+                <div class="col-md-3 text-center ftco-animate">
+                    <div class="menu-wrap">
+                        <a href="#" class="menu-img img mb-4"
+                           style="background-image: url('@item.ImageUrl');">
+                        </a>
+                        <div class="text">
+                            <h3><a href="#">@item.Name</a></h3>
+                            <p>@item.Description</p>
+                            <p class="price"><span>$@item.Price</span></p>
+                            <p><a href="#" class="btn btn-white btn-outline-white">Add to cart</a></p>
+                        </div>
+                    </div>
+                </div>
+            }
         </div>
     </div>
 </section>

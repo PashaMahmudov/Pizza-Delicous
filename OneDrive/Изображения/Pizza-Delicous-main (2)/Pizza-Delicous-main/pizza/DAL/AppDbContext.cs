@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿
+
+using Microsoft.EntityFrameworkCore;
 using pizza.Models;
 using pizza.ViewComponents;
 using System.CodeDom;
@@ -33,5 +35,9 @@ namespace pizza.DAL
         public DbSet<Comment> comments { get; set; }
      
         public DbSet<ContactMessage>contactMessages  { get; set; }
+        public DbSet<Chef> chefs { get; set; }
+        public  object ContactInfo { get; internal set; }
+        public DbSet<Meal> meals { get; set; }
+
     }
 }

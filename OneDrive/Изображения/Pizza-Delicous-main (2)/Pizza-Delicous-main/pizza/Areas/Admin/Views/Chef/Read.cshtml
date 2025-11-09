@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewData["Title"] = "Read";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+
+@model pizza.Models.Chef
+
+<h2>Chef Details</h2>
+
+<div>
+    <img src="@Model.Img" width="150" />
+    <p><strong>Name:</strong> @Model.Name</p>
+    <p><strong>Title:</strong> @Model.Title</p>
+    <p><strong>Description:</strong> @Model.Description</p>
+    <p><strong>Status:</strong> @(Model.IsActive ? "Active" : "Inactive")</p>
+</div>
+
+<a href="/Admin/Chef/Index" class="btn btn-primary mt-3">Back</a>

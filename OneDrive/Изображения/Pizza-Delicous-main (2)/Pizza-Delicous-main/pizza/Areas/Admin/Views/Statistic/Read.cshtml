@@ -1,16 +1,17 @@
 ﻿@model pizza.Models.Statistic
 @{
-    ViewData["Title"] = "Read Statistic";
+    ViewData["Title"] = "View Statistic";
     Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h3>Statistic Details</h3>
-<div class="card p-3">
-    <p><strong>Id:</strong> @Model.Id</p>
-    <p><strong>Icon:</strong> <i class="@Model.Icon"></i> @Model.Icon</p>
-    <p><strong>Number:</strong> @Model.Number</p>
-    <p><strong>Title:</strong> @Model.Title</p>
-    <p><strong>Active:</strong> @(Model.IsActive ? "Yes" : "No")</p>
+<h2>Statistic Details</h2>
+
+<div class="card">
+    <div class="card-body">
+        <h4><i class="@Model.Icon"></i> @Model.Title</h4>
+        <p><strong>Number:</strong> @Model.Number</p>
+        <p><strong>Status:</strong> @(Model.IsActive ? "Active" : "Inactive")</p>
+    </div>
 </div>
 
-<a asp-action="Index" class="btn btn-secondary mt-2">Back</a>
+<a asp-action="Index" class="btn btn-secondary mt-3">Back to List</a>

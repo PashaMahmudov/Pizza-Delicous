@@ -66,6 +66,15 @@ namespace pizza.Areas.Admin.Controllers
             return View(slider);
         }
 
+        // Read - GET
+        [HttpGet]
+        public IActionResult Read(int id)
+        {
+            var slider = _db.Sliders.Find(id);
+            if (slider == null) return NotFound();
+            return View(slider);
+        }
+
         // Edit - GET
         [HttpGet]
         public IActionResult Edit(int id)
@@ -92,6 +101,17 @@ namespace pizza.Areas.Admin.Controllers
 
                 if (slider.formFile != null)
                 {
+                    // Köhnə şəkli sil
+                    if (!string.IsNullOrEmpty(existSlider.Img))
+                    {
+                        string oldImagePath = Path.Combine(_webHostEnvironment.WebRootPath, existSlider.Img.TrimStart('/'));
+                        if (System.IO.File.Exists(oldImagePath))
+                        {
+                            System.IO.File.Delete(oldImagePath);
+                        }
+                    }
+
+                    // Yeni şəkil yüklə
                     string uploadDir = Path.Combine(_webHostEnvironment.WebRootPath, "uploads");
                     if (!Directory.Exists(uploadDir))
                         Directory.CreateDirectory(uploadDir);
@@ -123,15 +143,39 @@ namespace pizza.Areas.Admin.Controllers
         }
 
         // Delete - POST
-        [HttpPost, ActionName("DeleteConfirmed")]
+        [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult DeleteConfirmed(int id)
+        public IActionResult Delete(int id, string confirmDelete)
         {
             var slider = _db.Sliders.Find(id);
             if (slider == null) return NotFound();
 
+            // Şəkli sil
+            if (!string.IsNullOrEmpty(slider.Img))
+            {
+                string oldImagePath = Path.Combine(_webHostEnvironment.WebRootPath, slider.Img.TrimStart('/'));
+                if (System.IO.File.Exists(oldImagePath))
+                {
+                    System.IO.File.Delete(oldImagePath);
+                }
+            }
+
             _db.Sliders.Remove(slider);
             _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        // Toggle Status (Active/Inactive)
+        [HttpGet]
+        public IActionResult ToggleStatus(int id)
+        {
+            var slider = _db.Sliders.Find(id);
+            if (slider == null) return NotFound();
+
+            // Status dəyiş
+            slider.IsActive = !slider.IsActive;
+            _db.SaveChanges();
+
             return RedirectToAction("Index");
         }
     }

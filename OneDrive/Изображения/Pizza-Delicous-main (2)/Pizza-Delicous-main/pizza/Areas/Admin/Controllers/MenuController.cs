@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using pizza.DAL;
 using pizza.Models;
@@ -23,14 +22,14 @@ namespace pizza.Areas.Admin.Controllers
             _webHostEnvironment = webHostEnvironment;
         }
 
-        // Index
+        // ✅ Index (Read all)
         public async Task<IActionResult> Index()
         {
             var products = await _db.products.Include(p => p.Category).ToListAsync();
             return View(products);
         }
 
-        // Create GET
+        // ✅ Create GET
         [HttpGet]
         public IActionResult Create()
         {
@@ -38,50 +37,54 @@ namespace pizza.Areas.Admin.Controllers
             return View();
         }
 
-        // Create POST
+        // ✅ Create POST
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Product product, IFormFile formFile)
+        public async Task<IActionResult> Create(Product menu, IFormFile formFile)
         {
-            if (ModelState.IsValid)
+            // Əgər model düzgün deyilsə, formu geri göstər
+            if (!ModelState.IsValid)
             {
-                if (formFile != null)
-                {
-                    string uploadFolder = Path.Combine(_webHostEnvironment.WebRootPath, "uploads");
-                    if (!Directory.Exists(uploadFolder))
-                        Directory.CreateDirectory(uploadFolder);
-
-                    string uniqueFileName = Guid.NewGuid() + "_" + formFile.FileName;
-                    string filePath = Path.Combine(uploadFolder, uniqueFileName);
-
-                    using (var stream = new FileStream(filePath, FileMode.Create))
-                    {
-                        await formFile.CopyToAsync(stream);
-                    }
-
-                    product.Img = "/uploads/" + uniqueFileName;
-                }
-
-                _db.products.Add(product);
-                await _db.SaveChangesAsync();
-                return RedirectToAction("Index");
+                ViewBag.Categories = _db.categories.ToList();
+                return View(menu);
             }
 
-            ViewBag.Categories = _db.categories.ToList();
-            return View(product);
+            // Şəkil varsa, uploads qovluğuna yüklə
+            if (formFile != null)
+            {
+                string uploadFolder = Path.Combine(_webHostEnvironment.WebRootPath, "uploads");
+                if (!Directory.Exists(uploadFolder))
+                    Directory.CreateDirectory(uploadFolder);
+
+                string uniqueFileName = Guid.NewGuid() + "_" + formFile.FileName;
+                string filePath = Path.Combine(uploadFolder, uniqueFileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await formFile.CopyToAsync(stream);
+                }
+
+                menu.Img = "/uploads/" + uniqueFileName;
+            }
+
+            _db.products.Add(menu);
+            await _db.SaveChangesAsync();
+
+            return RedirectToAction("Index");
         }
 
-        // Edit GET
+        // ✅ Edit GET
         [HttpGet]
         public IActionResult Edit(int id)
         {
             var product = _db.products.Find(id);
             if (product == null) return NotFound();
+
             ViewBag.Categories = _db.categories.ToList();
             return View(product);
         }
 
-        // Edit POST
+        // ✅ Edit POST
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(Product product, IFormFile formFile)
@@ -95,6 +98,7 @@ namespace pizza.Areas.Admin.Controllers
                 existingProduct.Description = product.Description;
                 existingProduct.Price = product.Price;
                 existingProduct.CategoryId = product.CategoryId;
+                existingProduct.IsActive = product.IsActive;
 
                 if (formFile != null)
                 {
@@ -121,24 +125,26 @@ namespace pizza.Areas.Admin.Controllers
             return View(product);
         }
 
-        // Read
+        // ✅ Read (Details)
         public IActionResult Read(int id)
         {
             var product = _db.products.Include(p => p.Category).FirstOrDefault(p => p.Id == id);
             if (product == null) return NotFound();
+
             return View(product);
         }
 
-        // Delete GET
+        // ✅ Delete GET
         [HttpGet]
         public IActionResult Delete(int id)
         {
             var product = _db.products.Include(p => p.Category).FirstOrDefault(p => p.Id == id);
             if (product == null) return NotFound();
+
             return View(product);
         }
 
-        // Delete POST
+        // ✅ Delete POST
         [HttpPost, ActionName("DeleteConfirmed")]
         [ValidateAntiForgeryToken]
         public IActionResult DeleteConfirmed(int id)
@@ -151,7 +157,7 @@ namespace pizza.Areas.Admin.Controllers
             return RedirectToAction("Index");
         }
 
-        // ToggleStatus
+        // ✅ ToggleStatus
         [HttpGet]
         public IActionResult ToggleStatus(int id)
         {

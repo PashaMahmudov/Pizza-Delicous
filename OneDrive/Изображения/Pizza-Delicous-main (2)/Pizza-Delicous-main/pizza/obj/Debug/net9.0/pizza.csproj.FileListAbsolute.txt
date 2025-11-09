@@ -3912,7 +3912,6 @@ C:\Users\user\OneDrive\Изображения\Pizza-Delicous-main (2)\Pizza-Deli
 C:\Users\user\OneDrive\Изображения\Pizza-Delicous-main (2)\Pizza-Delicous-main\pizza\obj\Debug\net9.0\compressed\xtj57edq6q-vg6ahl3tca.gz
 C:\Users\user\OneDrive\Изображения\Pizza-Delicous-main (2)\Pizza-Delicous-main\pizza\obj\Debug\net9.0\compressed\rt4ns9muph-zw1ph28e74.gz
 C:\Users\user\OneDrive\Изображения\Pizza-Delicous-main (2)\Pizza-Delicous-main\pizza\obj\Debug\net9.0\compressed\oxuewdrpig-lugek5hnai.gz
-C:\Users\user\OneDrive\Изображения\Pizza-Delicous-main (2)\Pizza-Delicous-main\pizza\obj\Debug\net9.0\compressed\32r4uck9w3-ppmkiyzul3.gz
 C:\Users\user\OneDrive\Изображения\Pizza-Delicous-main (2)\Pizza-Delicous-main\pizza\obj\Debug\net9.0\compressed\02vuauiqzm-61n19gt1b8.gz
 C:\Users\user\OneDrive\Изображения\Pizza-Delicous-main (2)\Pizza-Delicous-main\pizza\obj\Debug\net9.0\compressed\oxl7zfor85-tjlpdfzplx.gz
 C:\Users\user\OneDrive\Изображения\Pizza-Delicous-main (2)\Pizza-Delicous-main\pizza\obj\Debug\net9.0\compressed\78t890vf9j-8synsunaj7.gz
@@ -4014,3 +4013,5 @@ C:\Users\user\OneDrive\Изображения\Pizza-Delicous-main (2)\Pizza-Deli
 C:\Users\user\OneDrive\Изображения\Pizza-Delicous-main (2)\Pizza-Delicous-main\pizza\obj\Debug\net9.0\pizza.pdb
 C:\Users\user\OneDrive\Изображения\Pizza-Delicous-main (2)\Pizza-Delicous-main\pizza\obj\Debug\net9.0\pizza.genruntimeconfig.cache
 C:\Users\user\OneDrive\Изображения\Pizza-Delicous-main (2)\Pizza-Delicous-main\pizza\obj\Debug\net9.0\ref\pizza.dll
+C:\Users\user\OneDrive\Изображения\Pizza-Delicous-main (2)\Pizza-Delicous-main\pizza\obj\Debug\net9.0\pizza.sourcelink.json
+C:\Users\user\OneDrive\Изображения\Pizza-Delicous-main (2)\Pizza-Delicous-main\pizza\obj\Debug\net9.0\compressed\32r4uck9w3-qpa14scs5i.gz

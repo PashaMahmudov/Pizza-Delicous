@@ -5,7 +5,7 @@ namespace pizza.Models
 {
     public class OurService
     {
-        internal object formFile;
+        
 
         public int Id { get; set; }              
         public string Icon { get; set; }        
@@ -16,6 +16,6 @@ namespace pizza.Models
         public IFormFile? FormFile { get; set; }  
 
         public bool IsActive { get; set; } = true;
-        public string Img { get; internal set; }
+        public string? Img { get; internal set; }
     }
 }
