@@ -1,0 +1,42 @@
+﻿@model IEnumerable<pizza.Models.Chef>
+
+<h2>Chef List</h2>
+<a class="btn btn-primary mb-3" href="/Admin/Chef/Create">+ Add Chef</a>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Title</th>
+            <th style="max-width:300px;">Description</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var chef in Model)
+        {
+            <tr>
+                <td><img src="@chef.Img" width="80" /></td>
+                <td>@chef.Name</td>
+                <td>@chef.Title</td>
+                <td style="max-width:300px; word-wrap:break-word; overflow:hidden; text-overflow:ellipsis;" title="@chef.Description">
+                    @chef.Description
+                </td>
+                <td>
+                    <form asp-action="ToggleStatus" asp-route-id="@chef.Id" method="post">
+                        <button class="btn btn-sm @(chef.IsActive ? "btn-success" : "btn-secondary")">
+                            @(chef.IsActive ? "Active" : "Inactive")
+                        </button>
+                    </form>
+                </td>
+                <td>
+                    <a class="btn btn-info btn-sm" href="/Admin/Chef/Read/@chef.Id">Read</a>
+                    <a class="btn btn-warning btn-sm" href="/Admin/Chef/Edit/@chef.Id">Edit</a>
+                    <a class="btn btn-danger btn-sm" href="/Admin/Chef/Delete/@chef.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

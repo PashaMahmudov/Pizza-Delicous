@@ -1,0 +1,26 @@
+﻿
+@model IEnumerable<pizza.Models.GalleryImage>
+
+
+@if (Model != null)
+{
+<section class="ftco-gallery">
+    <div class="container-wrap">
+        <div class="row no-gutters">
+            @if (Model != null && Model.Any(x => x.IsActive))
+            {
+                foreach (var item in Model.Where(x => x.IsActive))
+                {
+                    <div class="col-md-3 ftco-animate">
+                        <a href="@item.Img" class="gallery img d-flex align-items-center" style="background-image: url('@item.Img');">
+                            <div class="icon mb-4 d-flex align-items-center justify-content-center">
+                                <span class="icon-search"></span>
+                            </div>
+                        </a>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</section>
+}

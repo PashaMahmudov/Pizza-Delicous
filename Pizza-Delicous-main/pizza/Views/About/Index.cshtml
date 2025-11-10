@@ -1,0 +1,153 @@
+﻿@using pizza.ViewModels
+@model pizza.ViewModels.AboutVM
+
+
+
+
+
+
+<section class="home-slider owl-carousel img" style="background-image: url(images/bg_1.jpg);">
+
+    <div class="slider-item" style="background-image: url(images/bg_3.jpg);">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row slider-text justify-content-center align-items-center">
+
+                <div class="col-md-7 col-sm-12 text-center ftco-animate">
+                    <h1 class="mb-3 mt-5 bread">About</h1>
+                    <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>About</span></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="ftco-intro">
+    <div class="container-wrap">
+        <div class="wrap d-md-flex">
+            <div class="info">
+                <div class="row no-gutters">
+                    <div class="col-md-4 d-flex ftco-animate">
+                        <div class="icon"><span class="icon-phone"></span></div>
+                        <div class="text">
+                            <h3>@Model.Contact.PhoneNumber</h3>
+                            <p>@Model.Contact.PhoneDescription</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex ftco-animate">
+                        <div class="icon"><span class="icon-my_location"></span></div>
+                        <div class="text">
+                            <h3>198 West 21th Street</h3>
+                            <p>Suite 721 New York NY 10016</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex ftco-animate">
+                        <div class="icon"><span class="icon-clock-o"></span></div>
+                        <div class="text">
+                            <h3>Open Monday-Friday</h3>
+                            <p>8:00am - 9:00pm</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="social d-md-flex pl-md-5 p-4 align-items-center">
+                <ul class="social-icon">
+                    <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+@await Component.InvokeAsync("About")
+
+<section class="ftco-section">
+    <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+            <div class="col-md-7 heading-section ftco-animate text-center">
+                <h2 class="mb-4"> Chef</h2>
+                <p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
+                <p class="mt-5">Bizim istedadlı komandamız hər bir yeməyə həvəs və yaradıcılıq qatır.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            @foreach (var chef in Model.Chefs)
+            {
+                <div class="col-lg-3 d-flex mb-sm-4 ftco-animate">
+                    <div class="staff">
+                        <div class="img mb-4" style="background-image: url(@chef.Img);"></div>
+                        <div class="info text-center">
+                            <h3>@chef.Name</h3>
+                            <span class="position">@chef.Title</span>
+                            <div class="text">
+                                <p>@chef.Description</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+
+@await Component.InvokeAsync("Statistic")
+
+
+<section class="ftco-appointment">
+    <div class="overlay"></div>
+    <div class="container-wrap">
+        <div class="row no-gutters d-md-flex align-items-center">
+
+            <!-- Sol tərəf - şəkil -->
+            <div class="col-md-6 d-flex align-self-stretch">
+                <div class="contact-image"
+                     style="width:100%; height:500px; background-image: url('/images/about - Copy.jpg');
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;">
+                </div>
+            </div>
+
+            <!-- Sağ tərəf - form -->
+            <div class="col-md-6 appointment ftco-animate">
+                <h3 class="mb-3">Contact Us</h3>
+
+                <form asp-controller="Home" asp-action="SendMessage" method="post" class="appointment-form">
+                    <div class="d-md-flex">
+                        <div class="form-group">
+                            <input type="text" name="FirstName" class="form-control" placeholder="AD" required>
+                        </div>
+                    </div>
+
+                    <div class="d-me-flex">
+                        <div class="form-group">
+                            <input type="text" name="LastName" class="form-control" placeholder="SoyAD" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea name="Message" cols="30" rows="3" class="form-control" placeholder="Message" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="submit" value="Send" class="btn btn-primary py-3 px-4">
+                    </div>
+                </form>
+                @if (TempData["SuccessMessage"] != null)
+                {
+                    <div class="alert alert-success mt-3">
+                        @TempData["SuccessMessage"]
+                    </div>
+                }
+            </div>
+
+        </div>
+    </div>
+</section>
+

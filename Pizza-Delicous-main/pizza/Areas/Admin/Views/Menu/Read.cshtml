@@ -1,0 +1,26 @@
+﻿@model pizza.Models.Product
+@{
+    ViewData["Title"] = "View Product";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>@Model.Title</h2>
+
+<div>
+    <strong>Description:</strong> @Model.Description
+</div>
+<div>
+    <strong>Price:</strong> $@Model.Price
+</div>
+<div>
+    <strong>Category:</strong> @Model.Category?.Name
+</div>
+<div>
+    <strong>Image:</strong> <br />
+    @if (!string.IsNullOrEmpty(Model.Img))
+    {
+        <img src="@Model.Img" width="200" />
+    }
+</div>
+
+<a asp-action="Index" class="btn btn-secondary mt-3">Back</a>

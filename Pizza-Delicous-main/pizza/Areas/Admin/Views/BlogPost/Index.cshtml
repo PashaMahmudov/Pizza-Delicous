@@ -1,0 +1,47 @@
+﻿@model IEnumerable<pizza.Models.BlogPost>
+
+<h2>Blog List</h2>
+<a class="btn btn-primary mb-3" href="/Admin/Blogs/Create">+ Add Blog</a>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Image</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Author</th>
+            <th>Date</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var blog in Model)
+        {
+            <tr>
+                <td>
+                    @if (!string.IsNullOrEmpty(blog.ImageUrl))
+                    {
+                        <img src="@blog.ImageUrl" width="80" alt="Blog Image" />
+                    }
+                </td>
+                <td>@blog.Title</td>
+                <td>@blog.Description</td>
+                <td>@blog.Author</td>
+                <td>@blog.Date.ToString("yyyy-MM-dd")</td>
+                <td>
+                    <form asp-action="ToggleStatus" asp-route-id="@blog.Id" method="post" style="display:inline">
+                        <button class="btn btn-sm @(blog.IsActive ? "btn-success" : "btn-secondary")">
+                            @(blog.IsActive ? "Active" : "Inactive")
+                        </button>
+                    </form>
+                </td>
+                <td>
+                    <a class="btn btn-info btn-sm" href="/Admin/Blogs/Read/@blog.Id">Read</a>
+                    <a class="btn btn-warning btn-sm" href="/Admin/Blogs/Edit/@blog.Id">Edit</a>
+                    <a class="btn btn-danger btn-sm" href="/Admin/Blogs/Delete/@blog.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

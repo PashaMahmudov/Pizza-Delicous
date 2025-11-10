@@ -1,0 +1,65 @@
+﻿@model pizza.Models.Contact
+@{
+    ViewData["Title"] = "Create Contact";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="container mt-4">
+    <div class="card shadow-lg border-0 rounded-3">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">Create Contact</h4>
+        </div>
+        <div class="card-body">
+            <form asp-action="Create" method="post">
+                <div class="mb-3">
+                    <label asp-for="PhoneNumber" class="form-label fw-bold">Phone Number</label>
+                    <input asp-for="PhoneNumber" class="form-control" placeholder="Enter phone number..." />
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="PhoneDescription" class="form-label fw-bold">Phone Description</label>
+                    <input asp-for="PhoneDescription" class="form-control" placeholder="Enter description..." />
+                    <span asp-validation-for="PhoneDescription" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Address" class="form-label fw-bold">Address</label>
+                    <input asp-for="Address" class="form-control" placeholder="Enter address..." />
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="AddressDescription" class="form-label fw-bold">Address Description</label>
+                    <input asp-for="AddressDescription" class="form-control" placeholder="Enter description..." />
+                    <span asp-validation-for="AddressDescription" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="WorkDays" class="form-label fw-bold">Work Days</label>
+                    <input asp-for="WorkDays" class="form-control" placeholder="e.g., Monday - Friday" />
+                    <span asp-validation-for="WorkDays" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="WorkHours" class="form-label fw-bold">Work Hours</label>
+                    <input asp-for="WorkHours" class="form-control" placeholder="e.g., 9:00 AM - 6:00 PM" />
+                    <span asp-validation-for="WorkHours" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="TwitterUrl" class="form-label fw-bold">Twitter URL</label>
+                    <input asp-for="TwitterUrl" class="form-control" placeholder="https://twitter.com/..." />
+                    <span asp-validation-for="TwitterUrl" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="FacebookUrl" class="form-label fw-bold">Facebook URL</label>
+                    <input asp-for="FacebookUrl" class="form-control" placeholder="https://facebook.com/..." />
+                    <span asp-validation-for="FacebookUrl" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="InstagramUrl" class="form-label fw-bold">Instagram URL</label>
+                    <input asp-for="InstagramUrl" class="form-control" placeholder="https://instagram.com/..." />
+                    <span asp-validation-for="InstagramUrl" class="text-danger"></span>
+                </div>
+                <div class="text-end">
+                    <button type="submit" class="btn btn-success px-4">Save</button>
+                    <a asp-action="Index" class="btn btn-secondary px-4 ms-2">Back</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,192 @@
+﻿@using pizza.ViewModels
+
+@model HomeVM
+
+<section class="home-slider owl-carousel img">
+	@if (Model?.Sliders != null && Model.Sliders.Any())
+	{
+		@foreach (var item in Model.Sliders)
+		{
+			<div class="slider-item" style="background-image: url(@item.Img);">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="row slider-text align-items-center" data-scrollax-parent="true">
+						<div class="col-md-6 col-sm-12 ftco-animate">
+							<span class="subheading">@item.Subheading</span>
+							<h1 class="mb-4">@item.Title</h1>
+							<p class="mb-4 mb-md-5">@item.Description</p>
+							
+						</div>
+						<div class="col-md-6 ftco-animate">
+							<img src="@item.Img" class="img-fluid" alt="@item.Title">
+						</div>
+					</div>
+				</div>
+			</div>
+		}
+	}
+</section>
+
+<section class="ftco-intro">
+	<div class="container-wrap">
+		<div class="wrap d-md-flex">
+			<div class="info">
+				<div class="row no-gutters">
+					<div class="col-md-4 d-flex ftco-animate">
+						<div class="icon"><span class="icon-phone"></span></div>
+						<div class="text">
+							<h3>@(Model?.Contact?.PhoneNumber ?? "+994 XX XXX XX XX")</h3>
+							<p>@(Model?.Contact?.PhoneDescription ?? "Call us anytime")</p>
+						</div>
+					</div>
+					<div class="col-md-4 d-flex ftco-animate">
+						<div class="icon"><span class="icon-my_location"></span></div>
+						<div class="text">
+							<h3>@(Model?.Contact?.Address ?? "198 West 21th Street")</h3>
+							<p>@(Model?.Contact?.AddressDescription ?? "Suite 721 New York NY 10016")</p>
+						</div>
+					</div>
+					<div class="col-md-4 d-flex ftco-animate">
+						<div class="icon"><span class="icon-clock-o"></span></div>
+						<div class="text">
+							<h3>@(Model?.Contact?.WorkDays ?? "Open Monday-Friday")</h3>
+							<p>@(Model?.Contact?.WorkHours ?? "8:00am - 9:00pm")</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="social d-md-flex pl-md-5 p-4 align-items-center">
+				<ul class="social-icon">
+					@if (!string.IsNullOrEmpty(Model?.Contact?.TwitterUrl))
+					{
+						<li class="ftco-animate"><a href="@Model.Contact.TwitterUrl" target="_blank"><span class="icon-twitter"></span></a></li>
+					}
+					@if (!string.IsNullOrEmpty(Model?.Contact?.FacebookUrl))
+					{
+						<li class="ftco-animate"><a href="@Model.Contact.FacebookUrl" target="_blank"><span class="icon-facebook"></span></a></li>
+					}
+					@if (!string.IsNullOrEmpty(Model?.Contact?.InstagramUrl))
+					{
+						<li class="ftco-animate"><a href="@Model.Contact.InstagramUrl" target="_blank"><span class="icon-instagram"></span></a></li>
+					}
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+
+@await Component.InvokeAsync("About")
+
+@await Component.InvokeAsync("OurService")
+
+<section class="ftco-section">
+	<div class="container">
+		<div class="row justify-content-center mb-5 pb-3">
+			<div class="col-md-7 heading-section ftco-animate text-center">
+				<h2 class="mb-4">İsti Pizza</h2>
+				<p>Kimsənin addım atmadığı dağların arxasında, sözlər öz sehrini danışır.</p>
+			</div>
+		</div>
+	</div>
+	@await Component.InvokeAsync("PizzaMenu")
+
+	@await Component.InvokeAsync("OurMenu")
+</section>
+
+@await Component.InvokeAsync("GalleryImage")
+
+@await Component.InvokeAsync("Statistic")
+
+@await Component.InvokeAsync("Menu")
+
+<section class="ftco-section">
+	<div class="container">
+		<div class="row justify-content-center mb-5 pb-3">
+			<div class="col-md-7 heading-section ftco-animate text-center">
+				<h2 class="mb-4">Blog</h2>
+				<p>Kimsənin addım atmadığı dağların arxasında, sözlər öz sehrini danışır.</p>
+			</div>
+		</div>
+		<div class="row d-flex">
+			@if (Model?.BlogPosts != null && Model.BlogPosts.Any())
+			{
+				@foreach (var item in Model.BlogPosts)
+				{
+					<div class="col-md-4 d-flex ftco-animate">
+						<div class="blog-entry align-self-stretch">
+							<a asp-action="BlogDetail" asp-route-id="@item.Id" class="block-20"
+							   style="background-image: url('@Url.Content(item.ImageUrl)');">
+							</a>
+							<div class="text py-4 d-block">
+								<div class="meta">
+									<div><a href="#">@item.Date.ToString("MMM dd, yyyy")</a></div>
+									<div><a href="#">@item.Author</a></div>
+									<div><a href="#" class="meta-chat"><span class="icon-chat"></span> @item.CommentCount</a></div>
+								</div>
+								<h3 class="heading mt-2"><a asp-action="BlogDetail" asp-route-id="@item.Id">@item.Title</a></h3>
+								<p>@item.Description</p>
+							</div>
+						</div>
+					</div>
+				}
+			}
+			else
+			{
+				<p>No blog posts found.</p>
+			}
+		</div>
+	</div>
+</section>
+
+
+<section class="ftco-appointment">
+	<div class="overlay"></div>
+	<div class="container-wrap">
+		<div class="row no-gutters d-md-flex align-items-center">
+			<div class="col-md-6 d-flex align-self-stretch">
+				<div class="contact-image"
+					 style="width:100%; height:500px; background-image: url('/images/about - Copy.jpg');
+							background-size: cover;
+							background-position: center;
+							background-repeat: no-repeat;">
+				</div>
+			</div>
+
+			<div class="col-md-6 appointment ftco-animate">
+				<h3 class="mb-3">Bizimlə əlaqə</h3>
+
+				<form asp-controller="Home" asp-action="SendMessage" method="post" class="appointment-form">
+					<div class="d-md-flex">
+						<div class="form-group">
+							<input type="text" name="FirstName" class="form-control" placeholder="AD" required>
+						</div>
+					</div>
+
+					<div class="d-me-flex">
+						<div class="form-group">
+							<input type="text" name="Last Name" class="form-control" placeholder="SoyAD" required>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<textarea name="Message" cols="30" rows="3" class="form-control" placeholder="Message" required></textarea>
+					</div>
+
+					<div class="form-group">
+						<input type="submit" value="Göndər" class="btn btn-primary py-3 px-4">
+					</div>
+				</form>
+				@if (TempData["SuccessMessage"] != null)
+				{
+					<div class="alert alert-success mt-3">
+						@TempData["SuccessMessage"]
+					</div>
+				}
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+

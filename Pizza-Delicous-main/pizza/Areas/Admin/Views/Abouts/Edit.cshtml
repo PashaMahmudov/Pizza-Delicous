@@ -1,0 +1,55 @@
+﻿@model pizza.Models.About
+@{
+    ViewData["Title"] = "Edit About";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="container mt-4">
+    <div class="card shadow-lg border-0 rounded-3">
+        <div class="card-header bg-warning text-white">
+            <h4 class="mb-0">Edit About</h4>
+        </div>
+        <div class="card-body">
+            <form asp-action="Edit" method="post" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Id" />
+                <input type="hidden" asp-for="Img" />
+
+                <div class="mb-3">
+                    <label asp-for="Title" class="form-label fw-bold">Title</label>
+                    <input asp-for="Title" class="form-control" />
+                    <span asp-validation-for="Title" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Description" class="form-label fw-bold">Description</label>
+                    <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Current Image</label>
+                    @if (!string.IsNullOrEmpty(Model.Img))
+                    {
+                        <div class="mb-2">
+                            <img src="~/@Model.Img" alt="@Model.Title" class="img-thumbnail" style="max-width: 200px;" />
+                        </div>
+                    }
+                    <label asp-for="formFile" class="form-label">Select New Image (optional)</label>
+                    <input asp-for="formFile" type="file" class="form-control" />
+                    <span asp-validation-for="formFile" class="text-danger"></span>
+                    <small class="text-muted">Leave empty to keep current image</small>
+                </div>
+
+                <div class="form-check mb-3">
+                    <input asp-for="IsActive" class="form-check-input" />
+                    <label asp-for="IsActive" class="form-check-label">Active</label>
+                </div>
+
+                <div class="text-end">
+                    <button type="submit" class="btn btn-warning px-4">Save</button>
+                    <a asp-action="Index" class="btn btn-secondary px-4 ms-2">Back</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

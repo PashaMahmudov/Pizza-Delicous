@@ -1,0 +1,16 @@
+﻿@model pizza.Models.About
+
+@if (Model != null)
+{
+    <section class="ftco-about d-md-flex">
+        <div class="one-half img" style="background-image: url(@Model.Img);"></div>
+        <div class="one-half ftco-animate">
+            <div class="heading-section ftco-animate">
+                <h2 class="mb-4">@Model.Title</h2>
+            </div>
+            <div>
+                <p>@Model.Description</p>
+            </div>
+        </div>
+    </section>
+}

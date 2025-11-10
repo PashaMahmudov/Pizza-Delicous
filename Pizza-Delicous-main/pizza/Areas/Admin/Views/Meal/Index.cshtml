@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+@model IEnumerable<pizza.Models.Meal>
+
+
+<h2>Meal List</h2>
+<a class="btn btn-primary mb-3" href="/Admin/Meal/Create">+ Add Meal</a>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var meal in Model)
+        {
+            <tr>
+                <td>
+                    @if (!string.IsNullOrEmpty(meal.ImageUrl))
+                    {
+                        <img src="@meal.ImageUrl" width="80" />
+                    }
+                    else
+                    {
+                        <span class="text-muted">No Image</span>
+                    }
+                </td>
+                <td>@meal.Name</td>
+                <td>@meal.Description</td>
+                <td>$@meal.Price</td>
+                <td>
+                    <form asp-action="ToggleStatus" asp-route-id="@meal.Id" method="post">
+                        <button type="submit" class="btn btn-sm @(meal.IsActive ? "btn-success" : "btn-secondary")">
+                            @(meal.IsActive ? "Active" : "Inactive")
+                        </button>
+                    </form>
+                </td>
+                <td>
+                    <a class="btn btn-info btn-sm" href="/Admin/Meal/Read/@meal.Id">Read</a>
+                    <a class="btn btn-warning btn-sm" href="/Admin/Meal/Edit/@meal.Id">Edit</a>
+                    <a class="btn btn-danger btn-sm" href="/Admin/Meal/Delete/@meal.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
