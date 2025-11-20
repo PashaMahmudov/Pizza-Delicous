@@ -26,7 +26,10 @@
                     }
                 </td>
                 <td>@blog.Title</td>
-                <td>@blog.Description</td>
+                <td style="max-width: 500px; word-wrap: break-word; white-space: normal;">
+                    @blog.Description
+                </td>
+
                 <td>@blog.Author</td>
                 <td>@blog.Date.ToString("yyyy-MM-dd")</td>
                 <td>

@@ -47,6 +47,7 @@ namespace pizza.Areas.Admin.Controllers
 
             _db.contactMessages.Remove(message);
             _db.SaveChanges();
+            TempData["Success"] = "Message deleted successfully.";
             return RedirectToAction(nameof(Index));
         }
     }

@@ -25,17 +25,22 @@
 
 
 <section class="ftco-section ftco-degree-bg">
-    <div class="container">
-        <div class="row">
+    <div class="container-fluid">
+        <!-- Slider ilə blog content arasında boşluq -->
+        <div style="height: 50px;"></div>
+
+        <div class="row align-items-start">
+            <!-- Sol tərəf: Şəkil -->
+            <div class="col-md-4">
+                <img src="@Model.ImageUrl" alt="" class="img-fluid">
+            </div>
+
+            <!-- Sağ tərəf: Blog başlıq və mətn -->
             <div class="col-md-8 ftco-animate">
                 <h2 class="mb-3">@Model.BlogDetail.Title</h2>
                 <p>@Model.BlogDetail.Description</p>
-                <p>
-                    <img src="images/@Model.ImageUrl" alt="" class="img-fluid">
-                </p>
-               
-
-                </div>
-
+            </div>
         </div>
-</section> <!-- .section -->
+    </div>
+</section>
+

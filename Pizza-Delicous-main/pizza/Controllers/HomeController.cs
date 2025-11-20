@@ -38,6 +38,7 @@ namespace pizza.Controllers
         {
             return View();
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult SendMessage(ContactMessage model)
@@ -46,14 +47,21 @@ namespace pizza.Controllers
             {
                 _db.contactMessages.Add(model);
                 _db.SaveChanges();
-
                 TempData["Success"] = "Your message has been sent!";
                 return RedirectToAction("Index");
             }
 
-            return View("Index", model);
-        }
+            // ✅ DÜZGÜN HƏLL - HomeVM yaradıb göndəririk
+            HomeVM homeVM = new HomeVM
+            {
+                Sliders = _db.Sliders.Where(x => x.IsActive).ToList(),
+                Contact = _db.Contacts.FirstOrDefault(),
+                ContactMessage = model, // Xətaları göstərmək üçün
+                BlogPosts = _db.blogs.Take(3).ToList()
+            };
 
+            return View("Index", homeVM);
+        }
 
         public IActionResult BlogDetail(int id)
         {

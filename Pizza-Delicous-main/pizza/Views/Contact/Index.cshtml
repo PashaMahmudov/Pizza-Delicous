@@ -267,7 +267,11 @@
                             <p><span>Phone:</span> <a href="tel://@Model.Contact.PhoneNumber">@Model.Contact.PhoneNumber</a></p>
                         </div>
                         <div class="col-md-12 mb-3">
-                            @* <p><span>Email:</span> <a hreEmail">@Model.Contact.Email</a></p> *@
+                            <p>
+                                <span>Email:</span> <a href="mailto:info@yoursite.com">pizzaDelicous@gmail.com</a>
+                            </p>
+                            <p><span>Website:</span> <a href="#">pizzaDelicous.com</a></p>
+                           
                         </div>
                     }
                 </div>
@@ -276,7 +280,7 @@
             <div class="col-md-1"></div>
 
             <div class="col-md-6 ftco-animate">
-                <h3 class="mb-4">Send a Message</h3>
+                <h3 class="mb-4">Gonder Message</h3>
 
                 <form asp-controller="Contact" asp-action="SendMessage" method="post" class="contact-form">
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -284,18 +288,24 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input asp-for="ContactMessage.FirstName" class="form-control" placeholder="First Name" />
+                                <input asp-for="ContactMessage.FirstName" class="form-control" placeholder="AD" />
                                 <span asp-validation-for="ContactMessage.FirstName" class="text-danger"></span>
                             </div>
                         </div>
+                       
 
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input asp-for="ContactMessage.LastName" class="form-control" placeholder="Last Name" />
+                                <input asp-for="ContactMessage.LastName" class="form-control" placeholder="SoyAD" />
                                 <span asp-validation-for="ContactMessage.LastName" class="text-danger"></span>
                             </div>
                         </div>
                     </div>
+                    <div class="form-group">
+                         <input type="text" class="form-control" placeholder="Email">
+                          
+
+                    </div> 
 
                     <div class="form-group">
                         <textarea asp-for="ContactMessage.Message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
@@ -303,7 +313,7 @@
                     </div>
 
                     <div class="form-group">
-                        <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+                        <input type="submit" value="Gonder" class="btn btn-primary py-3 px-5">
                     </div>
                 </form>
 

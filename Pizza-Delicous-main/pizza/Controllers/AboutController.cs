@@ -9,8 +9,7 @@ namespace pizza.Controllers
     {
         private readonly ApplicationDbContext _db;
 
-
-        public AboutController (ApplicationDbContext db)
+        public AboutController(ApplicationDbContext db)
         {
             _db = db;
         }
@@ -18,19 +17,42 @@ namespace pizza.Controllers
         public IActionResult Index()
         {
             var contact = _db.Contacts.FirstOrDefault();
-            var contactMessage = _db.contactMessages.FirstOrDefault();
-            var chefs = _db.chefs.ToList(); 
+            var contactMessage = new ContactMessage(); // Boş model
+            var chefs = _db.chefs.ToList();
 
             var aboutVM = new AboutVM
             {
                 Contact = contact,
                 ContactMessage = contactMessage,
-                Chefs = chefs 
+                Chefs = chefs
             };
 
             return View(aboutVM);
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult SendMessage(ContactMessage model)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    model.DateTime = DateTime.Now;
+                    _db.contactMessages.Add(model);
+                    _db.SaveChanges();
+                    TempData["Success"] = "Mesajınız uğurla göndərildi!";
+                    return Redirect("~/About#contact");
+                }
+
+                TempData["Error"] = "Zəhmət olmasa bütün xanaları doldurun.";
+                return Redirect("~/About#contact");
+            }
+            catch (Exception ex)
+            {
+                TempData["Error"] = "Xəta baş verdi: " + ex.Message;
+                return Redirect("~/About#contact");
+            }
+        }
     }
 }
-

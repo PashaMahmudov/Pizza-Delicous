@@ -107,7 +107,7 @@ namespace pizza.Areas.Admin.Controllers
         }
 
         // Edit POST
-        [HttpPost("Edit")]
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Edit(BlogPost blog, IFormFile ImageFile)
         {

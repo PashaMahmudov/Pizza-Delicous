@@ -114,9 +114,10 @@
 				{
 					<div class="col-md-4 d-flex ftco-animate">
 						<div class="blog-entry align-self-stretch">
-							<a asp-action="BlogDetail" asp-route-id="@item.Id" class="block-20"
-							   style="background-image: url('@Url.Content(item.ImageUrl)');">
+							<a asp-action="BlogDetail" asp-route-id="@item.Id" class="block-20">
+								<img style="width:300px;" src="@Url.Content(item.ImageUrl)" alt="@item.Title" class="img-fluid" />
 							</a>
+
 							<div class="text py-4 d-block">
 								<div class="meta">
 									<div><a href="#">@item.Date.ToString("MMM dd, yyyy")</a></div>
@@ -139,7 +140,7 @@
 </section>
 
 
-<section class="ftco-appointment">
+@* <section class="ftco-appointment">
 	<div class="overlay"></div>
 	<div class="container-wrap">
 		<div class="row no-gutters d-md-flex align-items-center">
@@ -158,13 +159,13 @@
 				<form asp-controller="Home" asp-action="SendMessage" method="post" class="appointment-form">
 					<div class="d-md-flex">
 						<div class="form-group">
-							<input type="text" name="FirstName" class="form-control" placeholder="AD" required>
+							<input type="text" name="FirstName" class="form-control" placeholder="FirstName" required>
 						</div>
 					</div>
 
 					<div class="d-me-flex">
 						<div class="form-group">
-							<input type="text" name="Last Name" class="form-control" placeholder="SoyAD" required>
+							<input type="text" name="Last Name" class="form-control" placeholder="LastName" required>
 						</div>
 					</div>
 
@@ -176,12 +177,65 @@
 						<input type="submit" value="Göndər" class="btn btn-primary py-3 px-4">
 					</div>
 				</form>
-				@if (TempData["SuccessMessage"] != null)
+			</div>
+				
+			</div>
+		</div>
+	</div>
+</section> *@
+
+<section class="ftco-appointment" id="contact">
+	<div class="overlay"></div>
+	<div class="container-wrap">
+		<div class="row no-gutters d-md-flex align-items-center">
+			<div class="col-md-6 d-flex align-self-stretch">
+				<div class="contact-image"
+					 style="width:100%; height:500px; background-image: url('/images/about - Copy.jpg');
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;">
+				</div>
+			</div>
+			<div class="col-md-6 appointment ftco-animate">
+				<h3 class="mb-3">Bizimlə əlaqə</h3>
+
+				@if (TempData["Success"] != null)
 				{
-					<div class="alert alert-success mt-3">
-						@TempData["SuccessMessage"]
+					<div class="alert alert-success">
+						@TempData["Success"]
 					</div>
 				}
+
+				@if (TempData["Error"] != null)
+				{
+					<div class="alert alert-danger">
+						@TempData["Error"]
+					</div>
+				}
+
+				<form asp-controller="Home" asp-action="SendMessage" method="post" class="appointment-form">
+					@Html.AntiForgeryToken()
+
+					<div class="d-md-flex">
+						<div class="form-group w-100">
+							<input type="text" name="FirstName" class="form-control" placeholder="Ad" required>
+						</div>
+					</div>
+
+					<div class="d-md-flex">
+						<div class="form-group w-100">
+							<input type="text" name="LastName" class="form-control" placeholder="Soyad" required>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<textarea name="Message" cols="30" rows="3" class="form-control" placeholder="Mesajınız" required></textarea>
+					</div>
+
+					<div class="form-group">
+						<input type="submit" value="Göndər" class="btn btn-primary py-3 px-4">
+					</div>
+				</form>
 			</div>
 		</div>
 	</div>

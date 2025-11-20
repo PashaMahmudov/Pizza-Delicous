@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using pizza.DAL;
 using pizza.Models;
 
@@ -19,5 +20,19 @@ namespace pizza.Controllers
           List<BlogPost> posts = _db.blogs.ToList();
             return View(posts);
         }
+
+
+        public IActionResult BlogDetail(int id)
+        {
+            var blogPost = _db.blogs.Include(x => x.BlogDetail).FirstOrDefault(x => x.Id == id);
+
+            if (blogPost == null)
+            {
+                return NotFound();
+            }
+
+            return View(blogPost);
+        }
+
     }
 }

@@ -4014,7 +4014,6 @@ C:\Users\user\OneDrive\Изображения\Pizza-Delicous-main (2)\Pizza-Deli
 C:\Users\user\OneDrive\Изображения\Pizza-Delicous-main (2)\Pizza-Delicous-main\pizza\obj\Debug\net9.0\pizza.genruntimeconfig.cache
 C:\Users\user\OneDrive\Изображения\Pizza-Delicous-main (2)\Pizza-Delicous-main\pizza\obj\Debug\net9.0\ref\pizza.dll
 C:\Users\user\OneDrive\Изображения\Pizza-Delicous-main (2)\Pizza-Delicous-main\pizza\obj\Debug\net9.0\pizza.sourcelink.json
-C:\Users\user\OneDrive\Изображения\Pizza-Delicous-main (2)\Pizza-Delicous-main\pizza\obj\Debug\net9.0\compressed\32r4uck9w3-qpa14scs5i.gz
 C:\Users\user\Desktop\4444\Pizza-Delicous-main (6)\Pizza-Delicous-main\pizza\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\user\Desktop\4444\Pizza-Delicous-main (6)\Pizza-Delicous-main\pizza\bin\Debug\net9.0\appsettings.json
 C:\Users\user\Desktop\4444\Pizza-Delicous-main (6)\Pizza-Delicous-main\pizza\bin\Debug\net9.0\pizza.staticwebassets.runtime.json
@@ -5019,3 +5018,4 @@ C:\Users\user\Desktop\4444\Pizza-Delicous-main (6)\Pizza-Delicous-main\pizza\obj
 C:\Users\user\Desktop\4444\Pizza-Delicous-main (6)\Pizza-Delicous-main\pizza\obj\Debug\net9.0\pizza.pdb
 C:\Users\user\Desktop\4444\Pizza-Delicous-main (6)\Pizza-Delicous-main\pizza\obj\Debug\net9.0\pizza.genruntimeconfig.cache
 C:\Users\user\Desktop\4444\Pizza-Delicous-main (6)\Pizza-Delicous-main\pizza\obj\Debug\net9.0\ref\pizza.dll
+C:\Users\user\OneDrive\Изображения\Pizza-Delicous-main (2)\Pizza-Delicous-main\pizza\obj\Debug\net9.0\compressed\32r4uck9w3-qpa14scs5i.gz
